@@ -49,25 +49,21 @@ header h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 1rem;
 }
-footer a{
-    transition-duration: 0.4s;
-    box-shadow: 3px 3px 3px 3px rgb(102, 101, 101);
+footer {
+    text-align: center;
+    padding: 1.5rem 0;
+}
+.btn-nav {
+    transition: 0.4s ease;
+    box-shadow: 3px 3px 3px rgb(102, 101, 101);
     border-radius: 30px;
     padding: 10px 28px;
-    width: 200px;
+    margin: 0 10px;
     text-decoration: none;
     color: white;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     background-color: rgb(42, 132, 193);
 }
-a:hover{
+.btn-nav:hover {
     background-color: rgb(25, 88, 133);
-}
-.leftbutton{
-    margin-left: 100px;
-    margin-right: 460px;
-}
-.rightbutton{
-    margin-left: 460px;
-    margin-right: 100px;
 }
